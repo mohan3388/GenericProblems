@@ -9,8 +9,8 @@ namespace TestProgram
         public void Test()
         {
             Generics number = new Generics();
-            float num = number.FindMax(30.4f, 41.02f, 45.54f);
-            Assert.AreEqual(num, 45.54f);
+            string val = number.FindMax("Peach", "Apple", "Banana");
+            Assert.AreEqual(val,"Banana");
         }
     }
 }
