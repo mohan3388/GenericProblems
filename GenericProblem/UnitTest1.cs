@@ -6,11 +6,11 @@ namespace TestProgram
     public class Tests
     {
         [Test]
-        public void Test1()
+        public void Testr()
         {
             Generics number = new Generics();
-            int num= number.FindMax(30, 14, 7);
-            Assert.AreEqual(num, 30);
+            float num= number.FindMax(30.4f, 19.02f, 22.54f);
+            Assert.AreEqual(num, 30.4f);
         }
     }
 }

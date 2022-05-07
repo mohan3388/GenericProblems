@@ -8,7 +8,7 @@ namespace Generic
 {
     public class GeneicProblem
     {
-        public void MaxInt(int[] arr)
+        public void MaxInt<T>(T[] arr)
         {
             foreach(var item in arr)
             {
